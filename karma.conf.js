@@ -18,6 +18,7 @@ module.exports = function(config) {
       'src/angular/angular.min.js',
       'src/angular/*.js',
       'src/myApp.js',
+      'src/main/**/*.js',
       'src/roman/**/*.js',
       'spec/**/*.js'
     ],

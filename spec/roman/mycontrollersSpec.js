@@ -10,7 +10,7 @@ describe('MyCtrl', function(){
 
     function createController($rootScope, $controller){
         $scope = $rootScope.$new();
-        $controller("MyCtrl", {$scope: $scope});
+        $controller("MainController", {$scope: $scope});
     };
 
   it('should be I when input is 1', function() {

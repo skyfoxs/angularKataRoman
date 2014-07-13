@@ -1,10 +1,19 @@
-<html ng-app="myApp" ng-controller="MyCtrl">
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
 <head>
-   
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="js/mycontrollers.js"></script>
+    <meta charset="UTF-8">
+    <title>Roman</title>
 </head>
 <body>
+    <div ng-controller="MainController">
+        <input type="number" name="arabicNumber" 
+               ng-model="arabicNumber" ng-change="getRomanNumber()">
+        <span ng-bind="romanNumber"></span>
+    </div>
 
-<input type="number" ng-model="arabicNumber" ng-change="findRoman(arabicNumber)"> = <input type="text" ng-model="romanNumber">
+    <script src="js/angular/angular.min.js"></script>
+    <script src="js/myApp.js"></script>
+    <script src="js/roman/service.js"></script>
+    <script src="js/main/controller.js"></script>
 </body>
+</html>
