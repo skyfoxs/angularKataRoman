@@ -2,6 +2,7 @@
   "name": "AngularKataRoman",
   "version": "0.0.1",
   "devDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "karma": "~0.12.17"
   }
 }
